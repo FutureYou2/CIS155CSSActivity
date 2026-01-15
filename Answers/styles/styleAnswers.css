@@ -1,0 +1,94 @@
+/* 
+Page-level styles
+Change ONLY the values.
+*/
+
+body {
+    background-color: __________;   /* Example: #eeeeee, lightgray */
+    font-family: __________;        /* Example: Arial, Georgia */
+    margin: __________;             /* Example: 0, 20px */
+}
+
+/* 
+Main content container
+*/
+
+.container {
+    background-color: ________++;   /* Example: white */
+    padding: __________;            /* Example: 20px */
+    margin: __________;             /* Example: auto */
+    max-width: __________;          /* Example: 800px */
+}
+
+/* 
+Main heading
+*/
+
+h1 {
+    color: __________;              /* Example: navy */
+    text-align: __________;         /* Example: center */
+}
+
+/* 
+Section headings
+*/
+
+h2 {
+    color: __________;              /* Example: darkslategray */
+    border-bottom: __________;      /* Example: 2px solid #ccc */
+    padding-bottom: __________;     /* Example: 5px */
+}
+
+/* 
+Paragraph text
+*/
+
+p {
+    font-size: __________;          /* Example: 16px */
+    line-height: __________;        /* Example: 1.5 */
+}
+
+/* 
+Image container
+*/
+
+.image-box {
+    text-align: __________;         /* Example: center */
+    margin: __________;             /* Example: 20px 0 */
+}
+
+/* 
+Image styling
+*/
+
+img {
+    width: __________;              /* Example: 300px, 100% */
+    border-radius: __________;      /* Example: 8px */
+    border: __________;             /* Example: 2px solid black */
+}
+
+/* 
+Lists
+*/
+
+ul {
+    list-style-type: __________;    /* Example: square */
+    padding-left: __________;       /* Example: 20px */
+}
+
+li {
+    margin-bottom: __________;      /* Example: 5px */
+}
+
+/* 
+Links
+*/
+
+a {
+    color: __________;              /* Example: blue */
+    text-decoration: __________;    /* Example: none */
+}
+
+a:hover {
+    text-decoration: __________;    /* Example: underline */
+}

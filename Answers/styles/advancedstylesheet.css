@@ -1,0 +1,166 @@
+/* 
+  The body styles affect the entire page.
+  This is often where global fonts, colors, and spacing live.
+*/
+body {
+    /* Creates a smooth color blend instead of a flat background */
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+
+    /* Sets a clean, modern font for all text */
+    font-family: 'Segoe UI', Arial, sans-serif;
+
+    /* Removes default browser spacing around the page */
+    margin: 0;
+}
+
+/* 
+  The container acts like a "card" that holds all the content.
+  Centered and constrained so it’s easy to read.
+*/
+.container {
+    /* White background helps text stand out from the gradient */
+    background-color: #ffffff;
+
+    /* Limits how wide the content can stretch */
+    max-width: 900px;
+
+    /* Centers the container horizontally and adds space above/below */
+    margin: 40px auto;
+
+    /* Adds space inside the container so content isn’t cramped */
+    padding: 30px;
+
+    /* Rounds the corners of the container */
+    border-radius: 10px;
+
+    /* Adds depth with a soft shadow */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* 
+  Main page title styling
+*/
+h1 {
+    /* Dark color for strong contrast */
+    color: #2c3e50;
+
+    /* Centers the heading text */
+    text-align: center;
+
+    /* Adds space between letters for emphasis */
+    letter-spacing: 2px;
+}
+
+/* 
+  Section headings
+*/
+h2 {
+    /* Slightly lighter color than h1 */
+    color: #34495e;
+
+    /* Adds a line under each section heading */
+    border-bottom: 3px solid #e0e0e0;
+
+    /* Creates space between the text and the border */
+    padding-bottom: 6px;
+
+    /* Pushes each section down from the previous content */
+    margin-top: 30px;
+}
+
+/* 
+  Paragraph text styling
+*/
+p {
+    /* Standard readable text size */
+    font-size: 16px;
+
+    /* Controls vertical spacing between lines of text */
+    line-height: 1.7;
+
+    /* Soft gray is easier to read than pure black */
+    color: #555555;
+}
+
+/* 
+  Wrapper for the image
+*/
+.image-box {
+    /* Centers the image horizontally */
+    text-align: center;
+
+    /* Adds vertical space around the image */
+    margin: 30px 0;
+}
+
+/* 
+  Image styling
+*/
+img {
+    /* Controls the displayed size of the image */
+    width: 250px;
+
+    /* Makes the image circular */
+    border-radius: 50%;
+
+    /* Adds a light border around the image */
+    border: 4px solid #dddddd;
+
+    /* Adds depth so the image pops off the page */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+
+    /* Smooths out hover effects */
+    transition: transform 0.3s ease;
+}
+
+/* 
+  Runs when the user hovers over the image
+*/
+img:hover {
+    /* Slightly enlarges the image */
+    transform: scale(1.05);
+}
+
+/* 
+  List styling
+*/
+ul {
+    /* Changes the bullet shape */
+    list-style-type: square;
+
+    /* Pushes the list away from the left edge */
+    padding-left: 25px;
+}
+
+/* 
+  Individual list items
+*/
+li {
+    /* Adds space between list items */
+    margin-bottom: 8px;
+}
+
+/* 
+  Link styling
+*/
+a {
+    /* Sets link color */
+    color: #0066cc;
+
+    /* Removes the default underline */
+    text-decoration: none;
+
+    /* Makes links stand out */
+    font-weight: bold;
+
+    /* Smooth color change on hover */
+    transition: color 0.3s ease;
+}
+
+/* 
+  Link hover effect
+*/
+a:hover {
+    /* Changes color when hovered */
+    color: #ff6600;
+}
